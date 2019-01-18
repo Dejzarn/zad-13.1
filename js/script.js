@@ -57,7 +57,7 @@ for (var j = 0; j < data.length; j++) {
     // console.log(box);
     for (var i = 0; i < data[j].categories.length; i++) {
         if (data[j].categories[i] !== 'special-header') {
-            console.log(data[j].categories[i]);
+            // console.log(data[j].categories[i]);
             box.classList.add(data[j].categories[i]);
         } else {
             addHeaderClass(data[j].categories[i]);
@@ -66,11 +66,3 @@ for (var j = 0; j < data.length; j++) {
 
     }
 }
-
-//działająca pętla treningowa
-/*
-for (var i = 0; i < boxes.length; i++) {
-    var idCaught = document.getElementById('box' + (i + 1)); //konkatenacja pozwoli mi znaleźć boksy po kolei
-    console.log(idCaught);
-}
-*/

@@ -11,6 +11,7 @@ body {
     min-height: 100px;
     text-align: center;
     vertical-align: top;
+    opacity: .7;
 
     header {
         display: block;
@@ -25,4 +26,8 @@ body {
 .special-header {
     font-weight: bold;
     background: yellow;
+}
+
+.important {
+    opacity: 1;
 }
