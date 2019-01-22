@@ -1,35 +1,9 @@
-body {
-  padding: 10px;
-  text-align: center;
-}
+body { padding: 10px; text-align: center; }
 
-.box {
-  display: inline-block;
-  margin: 10px;
-  width: 200px;
-  border: 1px solid #000;
-  min-height: 100px;
-  text-align: center;
-  vertical-align: top;
-  opacity: .7;
-}
+[id*="box"] { border: 2px solid black; width: 200px; height: 100px; display: inline-block; margin: 20px; text-align: center; opacity: .7; }
 
-.box header {
-  display: block;
-  border-bottom: 1px solid #000;
-}
+.important { opacity: 1; }
 
-.highlighted {
-  background: lime;
-}
+.special-header > header { background-color: blue; color: white; }
 
-.special-header {
-  font-weight: bold;
-  background: yellow;
-}
-
-.important {
-  opacity: 1;
-}
-
-/*# sourceMappingURL=style.css.map */
+.highlighted { background-color: lightblue; }

@@ -1,0 +1,28 @@
+body {
+  padding: 10px;
+  text-align: center;
+}
+
+[id*="box"] {
+  border: 2px solid black;
+  width: 200px;
+  height: 100px;
+  display: inline-block;
+  margin: 20px;
+  text-align: center;
+  opacity: .7;
+}
+
+.important {
+  opacity: 1;
+}
+
+.special-header > header {
+  background-color: blue;
+  color: white;
+}
+
+.highlighted {
+  background-color: lightblue;
+}
+/*# sourceMappingURL=style.css.map */
